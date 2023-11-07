@@ -1,0 +1,25 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Session
+build_property.RootNamespace = Session
+build_property.ProjectDir = C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Usuario/Desktop/Curso C\# .net/Semana 7/dia 2/Session/Views/Principal/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Curso C\# .net/Semana 7/dia 2/Session/Views/Principal/Tablero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXFRhYmxlcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

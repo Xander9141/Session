@@ -1,0 +1,7 @@
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Curso C# .net\Semana 7\dia 2\Session\obj\Debug\net7.0\Session.RazorAssemblyInfo.cs

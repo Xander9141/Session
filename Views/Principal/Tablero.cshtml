@@ -1,0 +1,78 @@
+
+@{
+    ViewData["Title"] = "Tablero";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tablero</title>
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        #numberDisplay {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .btn-group {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        
+        #btnPlus {
+            background-color: yellow;
+        }
+        
+        #btnMinus {
+            background-color: blue;
+        }
+        
+        #btnMultiply {
+            background-color: red;
+        }
+        
+        #btnRandom {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablero</h1>
+    <div class="container">
+        <div id="numberDisplay">@{ int localVariable = HttpContext.Session.GetInt32("Value") ?? 0; }</div>
+
+        <div class="btn-group">
+            <form asp-controller="Principal" asp-action="ModifyValue" method="get">
+                <button id="btnPlus" name="modifier" value="1">+ 1</button>
+            </form>
+            <form asp-controller="Principal" asp-action="ModifyValue" method="get">
+                <button id="btnMinus" name="modifier" value="-1">- 1</button>
+            </form>
+            <form asp-controller="Principal" asp-action="ModifyValue" method="get">
+                <button id="btnMultiply" name="modifier" value="2">x 2</button>
+            </form>
+            <form asp-controller="Principal" asp-action="ModifyValue" method="get">
+                <button id="btnRandom" name="modifier" value="0">Random</button>
+            </form>
+        </div>
+        <form asp-controller="Principal" asp-action="CerrarSesion" method="post">
+            <button>Cerrar Sesión</button>
+        </form>
+    </div>
+</body>
+</html>
+
